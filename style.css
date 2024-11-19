@@ -1,0 +1,238 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+.head-row{
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+   width: 100%;
+   align-items: center;
+background-color: rgb(40, 43, 25);
+ height:100px ;
+}
+.head-left-col{
+  flex-basis: 50%;
+}
+.head-left-col img{
+    border-radius: 5px;
+   margin-left: 15px;
+   width: 20px;
+   height: 20px;
+    padding-bottom: 2px;
+    background-color: white;
+}
+.head-right-col{
+    flex-basis:50%;
+    display: flex;
+    justify-content: center;
+}
+.head-right-col h1{
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    /* font-weight: 400; */
+}
+.nav{
+background-color: rgb(107, 106, 106);
+width: 100%;
+/* margin: 5px; */
+height: 65px;
+display: flex;
+justify-content: end;
+text-align: center;
+align-items: center;
+
+}
+.nav img{
+    margin-right: 30px;
+    width: 45px;
+    height:45px;
+   margin-bottom: 8px;
+
+    
+}
+.nav span{
+   margin-right: 80px;
+    font-size:20px ;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin:  5px;
+    
+}
+.hero-row{
+background-image: url(images/cake4.jpg);
+width: 100%;
+height: 60vh;
+background-position: center;
+background-size: cover;
+margin-top: -65px;
+margin-bottom: 20px;
+}
+.hero-intro{
+   
+    margin-left: 65px;
+}
+ #hero-text{
+position: relative;
+top: 20px;
+ font-size:15vh;
+ font-weight:500;
+ font-style: italic;
+}
+.hero-intro .comBtn{
+   
+    padding:10px 15px 10px 15px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    border-radius: 2px;
+    background-color:yellow;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.main-text p{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.about-row-sec{
+   
+    width: 50%;
+    display: flex;
+    margin-left: 150px;
+    
+}
+.about-row-sec .about-p{
+    font-size: 19px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;color:yellow;
+}
+.about-row-thi{
+   
+    width: 50%;
+    display: flex;
+    margin-left: 150px;
+    justify-content: center;
+    
+}
+
+.about-img{
+    width: 50%;
+    display: flex;
+    margin-left: 150px;
+    
+
+}
+.about-img img{
+    width: 50%;
+    margin: 10px;
+}
+.about-img-sec{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* .about-img-sec{
+    flex-basis: 25%;
+    text-align: center;
+    /* margin-left: 140px; */
+/* 
+ */
+ .imgcontainer img{
+    
+    width: 240px;
+    margin: 5px;
+    height: 200px;
+   
+}
+.imgcontainer p{
+    display: flex;
+   justify-content: center;
+}
+.imgcontainer .cake-price{
+    color:yellow;
+
+}
+
+/* footer */
+
+
+.footer-up{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+flex-basis: 90%;
+margin-top: 20px;
+}
+.footer-logo{
+    flex-basis:50%;
+}
+.footer-logo h1{
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+
+.nav-footer {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-footer ul {
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+  
+}
+.nav-footer ul li{
+    margin-top: 5px;
+    list-style: none;
+}
+li a{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    text-decoration: none;
+}
+.mid-footer-details{
+    width: 50%;
+    margin-left:150px;
+    margin-top:20px;
+    
+}
+.footer-row{
+flex-basis: 100%;
+display: flex;
+flex-wrap: wrap;
+
+}
+.footer-left-col{
+    flex-basis: 50%;
+   display: inline-block;
+ text-align: center;
+  
+
+}
+.footer-right-col{
+    flex-basis: 50%;
+    text-align: center;
+}
+.footer-h{
+color: rgb(208, 169, 121);
+}
